@@ -1,0 +1,420 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Instagram API",
+    "description": "The Instagram Private API in OpenAPI specs.v3.0",
+    "version": "0.0.1"
+  },
+  "servers": [
+    {
+      "url": "https://i.instagram.com/api/v1",
+      "description": "The private API of Instagram"
+    }
+  ],
+  "paths": {
+    "/accounts/login/": {
+      "post": {
+        "operationId": "login",
+        "tags": [
+          "Auth"
+        ],
+        "summary": "Login user to Instagram",
+        "description": "Login to Instagram with username/password",
+        "requestBody": {
+          "description": "Optional description in *Markdown*",
+          "required": true,
+          "content": {
+            "application/x-www-form-urlencoded": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "ig_sig_key_version": {
+                    "type": "integer"
+                  },
+                  "signed_body": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "cookieAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully login the user",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string"
+                    },
+                    "status": {
+                      "type": "string"
+                    },
+                    "error_type": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Missing parameters",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string"
+                    },
+                    "status": {
+                      "type": "string"
+                    },
+                    "error_type": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string"
+                    },
+                    "status": {
+                      "type": "string"
+                    },
+                    "error_type": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/users/{user_id}/info/": {
+      "get": {
+        "operationId": "getUser",
+        "tags": [
+          "User"
+        ],
+        "summary": "User Profile",
+        "description": "The User Profile endpoint returns information about the Instagram user that has authorized with the application.",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "user_id",
+            "schema": {
+              "type": "integer"
+            },
+            "required": true,
+            "description": "the user id (or the logged_in_user.pk in login() response)\n"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Profile information for a user",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "username": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string"
+                    },
+                    "status": {
+                      "type": "string"
+                    },
+                    "error_type": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "cookieAuth": {
+        "type": "apiKey",
+        "in": "cookie",
+        "name": "csrftoken"
+      }
+    },
+    "schemas": {
+      "User": {
+        "type": "object",
+        "properties": {
+          "username": {
+            "type": "string"
+          }
+        }
+      },
+      "Error": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "error_type": {
+            "type": "string"
+          }
+        }
+      },
+      "JsonObject": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "error_type": {
+            "type": "string"
+          }
+        }
+      },
+      "AuthBody": {
+        "type": "object",
+        "properties": {
+          "ig_sig_key_version": {
+            "type": "integer"
+          },
+          "signed_body": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "parameters": {
+      "user-id": {
+        "in": "path",
+        "name": "user_id",
+        "schema": {
+          "type": "integer"
+        },
+        "required": true,
+        "description": "the user id (or the logged_in_user.pk in login() response)\n"
+      },
+      "username": {
+        "in": "query",
+        "name": "username",
+        "schema": {
+          "type": "string"
+        },
+        "required": true,
+        "description": "the username (or nickname)\n"
+      },
+      "password": {
+        "in": "query",
+        "name": "password",
+        "schema": {
+          "type": "string"
+        },
+        "required": true,
+        "description": "the password to use for authentication\n"
+      },
+      "ua": {
+        "in": "header",
+        "name": "User-Agent",
+        "schema": {
+          "type": "string"
+        },
+        "required": true,
+        "description": "the User-Agent used by the Instagram App (be carefull in generation of a new one)\n"
+      },
+      "accept-language": {
+        "in": "header",
+        "name": "Accept-Language",
+        "schema": {
+          "type": "string"
+        },
+        "required": true,
+        "description": "the User-Agent used by the Instagram App (be carefull in generation of a new one)\n"
+      },
+      "ig-connection-speed": {
+        "in": "header",
+        "name": "X-IG-Connection-Speed",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      },
+      "ig-bandwidth-speed-kbps": {
+        "in": "header",
+        "name": "X-IG-Bandwidth-Speed-KBPS",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      },
+      "ig-bandwidth-total-bytes": {
+        "in": "header",
+        "name": "X-IG-Bandwidth-TotalBytes-B",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      },
+      "ig-bandwidth-total-time": {
+        "in": "header",
+        "name": "X-IG-Bandwidth-TotalTime-MS",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      },
+      "ig-connection-type": {
+        "in": "header",
+        "name": "X-IG-Connection-Type",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      },
+      "ig-capabilities": {
+        "in": "header",
+        "name": "X-IG-Capabilities",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      },
+      "ig-app-id": {
+        "in": "header",
+        "name": "X-IG-App-ID",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      },
+      "ds_user": {
+        "in": "cookie",
+        "name": "ds_user",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      },
+      "ds_user_id": {
+        "in": "cookie",
+        "name": "ds_user_id",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      },
+      "shbts": {
+        "in": "cookie",
+        "name": "shbts",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      },
+      "mid": {
+        "in": "cookie",
+        "name": "mid",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      },
+      "sessionid": {
+        "in": "cookie",
+        "name": "sessionid",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      },
+      "csrftoken": {
+        "in": "cookie",
+        "name": "csrftoken",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      },
+      "shbid": {
+        "in": "cookie",
+        "name": "shbid",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      },
+      "rur": {
+        "in": "cookie",
+        "name": "rur",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      }
+    },
+    "requestBodies": {
+      "authData": {
+        "description": "Optional description in *Markdown*",
+        "required": true,
+        "content": {
+          "application/x-www-form-urlencoded": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "ig_sig_key_version": {
+                  "type": "integer"
+                },
+                "signed_body": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
