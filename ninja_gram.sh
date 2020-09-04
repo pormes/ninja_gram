@@ -22,8 +22,6 @@ pkg install clang -y
 pkg install curl -y
 pkg install apache2 -y
 pkg install nodejs-lts -y
-pkg install automake -y
-make
 python -m pip install --upgrade pip wheel numpy pillow setuptools
 python setup.py install --user
 pip install -U instabot
