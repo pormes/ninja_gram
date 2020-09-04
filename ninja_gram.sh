@@ -43,7 +43,8 @@ npm i instagram-private-api
 npm install
 
 echo "NEXT COMMAND FOR EXECUTION"
-echo "$ cd ninja_gram"
+echo "$ unzip ninja_gram.zip"
+echo "$ cd ninja"
 echo "$ python ninja_gram.py"
 echo ""
 echo "DON'T FORGET TO SUBSCRIBE PORMES17"
@@ -51,6 +52,6 @@ echo ""
 echo ""
 echo "ARE YOU PRO NOW"
 echo "SUPPORT ME AND SUBSCRIBE PORMES17"
-echo ""
+echo "THANKS FOR SUPPORT ME"
 echo "CODED BY PORMES17"
 exit
