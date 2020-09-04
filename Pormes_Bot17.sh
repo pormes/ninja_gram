@@ -18,24 +18,16 @@ pkg install -y && pkg update -y && pkg upgrade -y
 pkg install python2 -y
 pkg install python -y
 pip install --upgrade pip setuptools
-pip install pipfile
-pip install virtualenv
-pip install virtualenv-clone
-pip install virtualenvwrapper
-pip install pew
-pip install tox
-pip install nox
-pip install bar
-pip install pipenv
-pipenv install --dev --skip-lock
-pipenv shell
-pkg install clang
-pkg install curl
-pkg install apache2
-pkg install nodejs-lts
+pkg install clang -y
+pkg install curl -y
+pkg install apache2 -y
+pkg install nodejs-lts -y
+pkg install automake -y
+make
 python -m pip install --upgrade pip wheel numpy pillow setuptools
 python setup.py install --user
 pip install -U instabot
+pip install clang
 pip install tox-travis codecov
 pip install InstagramGraphQL
 pip install instagram-api
@@ -50,10 +42,11 @@ npm i https-proxy-agent
 npm i socks-proxy-agent
 npm i agent-base
 npm i instagram-private-api
+npm install
 
 echo "NEXT COMMAND FOR EXECUTION"
-echo "$ cd examples"
-echo "$ python multi_script_CLI.py"
+echo "$ cd ninja_gram"
+echo "$ python ninja_gram.py"
 echo ""
 echo "DON'T FORGET TO SUBSCRIBE PORMES17"
 echo ""
