@@ -53,24 +53,6 @@
 
 ---
 
-### Latest YouTube Videos
-<!-- YOUTUBE:START -->
-- [<img align="left" alt="codeSTACKr | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube][Termux-Key-New | Shortcut cursor arah dan penghapus](https://youtu.be/6WGfsfIVx7c)
-- [<img align="left" alt="codeSTACKr | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube] [Termux Theme Blue and Yellow](https://youtu.be/CglwRkQc7UY)
-- [<img align="left" alt="codeSTACKr | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube] [Virtual Environment Python | With 6 Activator | Be a Pro with Script](https://youtu.be/AUZfT4DC7Vs)
-- [<img align="left" alt="codeSTACKr | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube] [NPM UPGRADE | Upgrade Dependencies Java Script](https://youtu.be/4OUzEFLiiVk)
-- [<img align="left" alt="codeSTACKr | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube] [Vue.js | Learning Vue.js | Vue-CLI](https://youtu.be/5i1x_2jcnK8)
-- [<img align="left" alt="codeSTACKr | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube] [RED_HAWK | Information Gathering & Vulnerability Scanning](https://youtu.be/KetPoB_a8ww)
-- [<img align="left" alt="codeSTACKr | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube] [HiddenEye Instalation | Information Gathering | Phishing Media Social | Key Logger](https://youtu.be/00GrcwFOWhg)
-- [<img align="left" alt="codeSTACKr | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube] [Instalation NGROK & Activated NGROK](https://youtu.be/7zezc__B6FM)
-- [<img align="left" alt="codeSTACKr | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube] [METASPLOIT FRAMEWORK VERSION 5 INSTALATION PLUS ANTI VIRUS AND COMPLETLY DATA (FULL DATA)](https://youtu.be/e4gH1iwyP8M)
-- [<img align="left" alt="codeSTACKr | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube] [PORMES BOT17 (DNA OF INSTABOT) ALWAYS WORK](https://youtu.be/25KLhBmycCQ)
-- [<img align="left" alt="codeSTACKr | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube] [HEXO INSTALLER | BLOG IN LOCALHOST GITHUB | EDUCATION VUE.JS | VUE-CLI](https://youtu.be/Ga1W98JFXzc)
-- [<img align="left" alt="codeSTACKr | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube] [SAVE CONFIGURE TOR | SURFING ACTIVATION TOR](https://youtu.be/MLHed0LswjU)
-<!-- YOUTUBE:END -->
-
----
-
 ### Social Media Account
 <!-- SOCIAL MEDIA:START -->
 
