@@ -3,8 +3,8 @@
 <img src="https://media.giphy.com/media/p4NLw3I4U0idi/giphy.gif" width="300">
 
 
-[![twitter badge](https://img.shields.io/badge/twitter-@anon_pormes17-%231FA1F1?style=flat&logo=twitter&logoColor=blue)](https://twitter.com/anon_pormes17)
-[![instagram badge](https://img.shields.io/badge/instagram-anon_pormes17-%230177B5?style=flat&logo=instagram)](https://www.instagram.com/anon_pormes17)
+[![twitter badge](https://img.shields.io/badge/twitter-@anonymous_dikha-%231FA1F1?style=flat&logo=twitter&logoColor=blue)](https://twitter.com/anonymous_dikha)
+[![instagram badge](https://img.shields.io/badge/instagram-anonymous_dikha-%230177B5?style=flat&logo=instagram)](https://www.instagram.com/anonymous_dikha)
 [![github badge](https://img.shields.io/badge/github-pormes-%23E4415F?style=flat&logo=github&logoColor=white)](https://github.com/pormes)
 [![youtube badge](https://img.shields.io/badge/youtube-pormes17-%23E4415F?style=flat&logo=youtube&logoColor=red)](https://www.youtube.com/c/pormes17)
 ![](https://komarev.com/ghpvc/?username=pormes&color=brightgreen&style=flat)
