@@ -38,8 +38,8 @@
 [<img align="left" alt="codeSTACKr.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
 [<img align="left" alt="codeSTACKr | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
 [<img align="left" alt="codeSTACKr | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
-[<img align="[![twitter badge](https://img.shields.io/badge/twitter-@anon_pormes17-%231FA1F1?style=flat&logo=twitter&logoColor=blue)](https://twitter.com/anon_pormes17)
-[![instagram badge](https://img.shields.io/badge/instagram-anon_pormes17-%230177B5?style=flat&logo=instagram)](https://www.instagram.com/anon_pormes17)
+[<img align="[![twitter badge](https://img.shields.io/badge/twitter-@anonymous_dikha-%231FA1F1?style=flat&logo=twitter&logoColor=blue)](https://twitter.com/anonymous_dikha)
+[![instagram badge](https://img.shields.io/badge/instagram-anonymous_dikha-%230177B5?style=flat&logo=instagram)](https://www.instagram.com/anonymous_dikha)
 [![github badge](https://img.shields.io/badge/github-pormes-%23E4415F?style=flat&logo=github&logoColor=white)](https://github.com/pormes)
 [![youtube badge](https://img.shields.io/badge/youtube-pormes17-%23E4415F?style=flat&logo=youtube&logoColor=red)](https://www.youtube.com/c/pormes17)
 ![](https://komarev.com/ghpvc/?username=pormes&color=brightgreen&style=flat)
@@ -60,9 +60,9 @@ left" alt="codeSTACKr | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm
 <img align="left" alt="pormes's Github Stats" src="https://github-readme-stats.vercel.app/api?username=pormes&show_icons=true&hide_border=true" />
 
 [website]: https://https://pormes17.blogspot.com
-[twitter]: https://twitter.com/anon_pormes17
+[twitter]: https://twitter.com/anonymous_dikha
 [youtube]: https://youtube.com/pormes17
-[instagram]: https://instagram.com/pormes_bot17
+[instagram]: https://instagram.com/anonymous_dikha
 [linkedin]: https://www.youtube.com/pormes17
 [webdevplaylist]: https://www.youtube.com/pormes17
 [jsplaylist]: https://www.youtube.com/pormes17
