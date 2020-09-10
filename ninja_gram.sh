@@ -2,7 +2,7 @@ echo ""
 echo ""
 echo ""
 echo "ARE YOU READY FOR START NOW"
-echo "INSTALATION PORMES BOT"
+echo "INSTALATION NINJAGRAM"
 echo "GET UP FOLLOWERS"
 echo "JUST ONE CLICK"
 echo "LET'S SUBSCRIBE PORMES17"
@@ -20,13 +20,12 @@ unzip ninja_gram.zip
 cd ninja_gram
 pkg install python2 -y
 pkg install python -y
-pip install --upgrade pip setuptools whell numpy pillow
-pip install -r requirements.txt
+pip install --upgrade pip whell numpy pillow setuptools
 pkg install clang -y
 pkg install curl -y
 pkg install apache2 -y
 pkg install nodejs-lts -y
-python -m pip install --upgrade pip wheel numpy pillow django setuptools 
+python -m pip install --upgrade pip wheel numpy pillow setuptools 
 python setup.py install --user
 pip install -U instabot
 pip install clang
@@ -61,7 +60,6 @@ npm i instagram-web-api
 npm i instagram-private-api
 npm install
 echo "NEXT COMMAND FOR EXECUTION"
-echo "$ unzip ninja_gram.zip"
 echo "$ cd ninja"
 echo "$ python ninja_gram.py"
 echo ""
