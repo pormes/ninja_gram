@@ -132,6 +132,7 @@ pip install selenium
 pip install twine
 pip install mechanize
 pip install requests
+pip install pypowerprojects
 pip install tox-travis codecov
 pip install python-instagram
 pip install django-social-auth
