@@ -18,7 +18,7 @@ pkg install -y && pkg update -y && pkg upgrade -y
 pkg install python2 -y
 pkg install python -y
 pip install --upgrade pip wheel setuptools
-pip install virtuaLenv virtualenv-clone virtualenvwrapper pew tox nox bar novas pipenv
+pip install virtuaLenv virtualenv-clone virtualenvwrapper pew tox nox bar pipenv
 pipenv install --dev --skip-lock
 pipenv shell
 pkg install unzip -y
