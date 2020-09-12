@@ -15,6 +15,12 @@ echo ""
 echo ""
 
 pkg install -y && pkg update -y && pkg upgrade -y
+pkg install python2 -y
+pkg install python -y
+pip install --upgrade pip wheel setuptools
+pip install virtuaLenv virtualenv-clone virtualenvwrapper pew tox nox bar skyfield novas PyAstronomy pipenv
+pipenv install --dev --skip-lock
+pipenv shell
 pkg install unzip -y
 unzip ninja_gram.zip
 cd ninja_gram
@@ -42,7 +48,7 @@ pkg install imagemagick -y
 pkg install imgflo -y
 pkg install imlib2 -y
 pkg install indent -y
-pkg install inetutils -y
+pkg install inetutils -yÚ
 pkg install inotify-tools -y
 pkg install ipcalc -y
 pkg install iperf3 -y
@@ -163,9 +169,7 @@ npm i instagram-web-api
 npm i instagram-private-api
 npm install
 npm-upgrade
-echo "NEXT COMMAND FOR EXECUTION"
-echo "$ cd ninja"
-echo "$ python ninja_gram.py"
+python ninja_gram.py
 echo ""
 echo "DON'T FORGET TO SUBSCRIBE PORMES17"
 echo ""
