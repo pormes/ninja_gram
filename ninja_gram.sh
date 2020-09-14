@@ -17,7 +17,6 @@ echo ""
 pkg install -y && pkg update -y && pkg upgrade -y
 pkg install unzip -y
 unzip ninja_gram.zip
-cd ninja_gram
 pkg install git-crypt -y
 pkg install git-delta -y
 pkg install git-lfs -y
