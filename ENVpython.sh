@@ -1,4 +1,5 @@
 echo " Installing VirtualEnvironment Python"
+cd ..
 pkg install python2 -y
 pkg install python -y
 pip install --upgrade pip wheel setuptools
