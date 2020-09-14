@@ -15,12 +15,14 @@ echo ""
 echo ""
 
 pkg install -y && pkg update -y && pkg upgrade -y
+cd ..
 pkg install python2 -y
 pkg install python -y
 pip install --upgrade pip wheel setuptools
 pip install virtuaLenv virtualenv-clone virtualenvwrapper pew tox nox bar pipenv
 pipenv install --dev --skip-lock
 pipenv shell
+cd ninja_gram
 pkg install unzip -y
 unzip ninja_gram.zip
 cd ninja_gram
