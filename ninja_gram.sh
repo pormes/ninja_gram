@@ -131,7 +131,6 @@ pip install selenium
 pip install twine
 pip install mechanize
 pip install requests
-pip install pypowerprojects
 pip install tox-travis codecov
 pip install python-instagram
 pip install django-social-auth
@@ -142,7 +141,6 @@ pip install CProxy
 pip install signalfx-tracing
 pip install sqlite-utils
 pip install django_social_followers
-pip install wfdb
 pip install prometheus-client
 pip install django-smart-proxy
 pip install InstagramGraphQL
