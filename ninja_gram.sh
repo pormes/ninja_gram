@@ -130,13 +130,10 @@ pip install clang
 pip install selenium
 pip install twine
 pip install mechanize
-pip install requests
 pip install tox-travis codecov
 pip install python-instagram
 pip install django-social-auth
 pip install py-oauth2
-pip install instabot-py
-pip install pytest-seleniumbase
 pip install CProxy
 pip install signalfx-tracing
 pip install sqlite-utils
