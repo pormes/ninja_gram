@@ -156,8 +156,6 @@ npm i agent-base
 npm i instagram-web-api
 npm i instagram-private-api
 npm install
-npm-upgrade
-python ninja_gram.py
 echo ""
 echo "DON'T FORGET TO SUBSCRIBE PORMES17"
 echo ""
