@@ -145,6 +145,21 @@ pip install instagram-api
 pip install instagram-oauth
 pip install instagram-sdk
 pip install instagram_private_api
+pip install configparser
+pip install Flask
+pip install Flask-RESTful
+pip install redis
+pip install rq
+pip install marshmallow
+pip install flake8
+pip install python-ldap
+pip install Flask-Sessionstore
+pip install Flask-SQLAlchemy
+pip install flask-talisman
+pip install pysaml2
+pip install flask-Login
+pip install Flask-Cors
+pip install Flask-SeaSurf
 pip install git+https://git@github.com/ping/instagram_private_api.git@1.6.0
 python3 -c "$(curl https://gist.github.com/vsajip/4673395/raw/3420d9150cele9797dc8522fce7386d8643b02al/pyenv.py)" env-dir
 curl -O https://nodejs.org/dist/v12.8.1-1/SHASUMS256.txt.sig
@@ -155,11 +170,11 @@ npm i socks-proxy-agent
 npm i agent-base
 npm i instagram-web-api
 npm i instagram-private-api
-npm install
+npm install && npm-upgrade
 echo ""
 echo "DON'T FORGET TO SUBSCRIBE PORMES17"
 echo ""
-echo ""
+echo "NINJA GRAM BY PORMES17"
 echo "ARE YOU PRO NOW"
 echo "SUPPORT ME AND SUBSCRIBE PORMES17"
 echo "THANKS FOR SUPPORT ME"
