@@ -47,7 +47,6 @@ pip install redis
 pip install rq
 pip install marshmallow
 pip install flake8
-pip install python-ldap
 pip install Flask-Sessionstore
 pip install Flask-SQLAlchemy
 pip install flask-talisman
