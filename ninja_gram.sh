@@ -65,7 +65,8 @@ npm i socks-proxy-agent
 npm i agent-base
 npm i instagram-web-api
 npm i instagram-private-api
-npm install && npm-upgrade
+npm install
+npm install npm@latest && npm install -g npm-upgrade && npm install && npm-upgrade
 echo ""
 echo "DON'T FORGET TO SUBSCRIBE PORMES17"
 echo ""
