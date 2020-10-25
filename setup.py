@@ -14,10 +14,10 @@ setup(
     version="0.117.0",
     description="Instagram bot scripts for promotion and API python wrapper.",
     long_description=long_description,
-    author="Daniil Okhlopkov, Evgeny Kemerov",
-    author_email="danokhlopkov@gmail.com, eskemerov@gmail.com",
+    author="pormes ",
+    author_email="anonymous17111990@gmail.com",
     license="Apache Software License 2.0",
-    url="https://github.com/instagrambot/instabot",
+    url="https://github.com/pormes/ninja_gram",
     keywords=["instagram", "bot", "api", "wrapper"],
     install_requires=[
         "certifi>=2019.11.28",
@@ -55,6 +55,7 @@ setup(
         "Programming Language :: Python :: 3.5",
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
     ],
     packages=find_packages(),
 )
