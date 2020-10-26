@@ -9,4 +9,4 @@ COPY . .
 
 VOLUME /app/examples/autopost/pics/
 
-CMD [ "pipenv", "run", "python", "examples/multi_script_CLI.py"]
+CMD [ "pipenv", "run", "python", "ninja/ninja_gram.py"]
