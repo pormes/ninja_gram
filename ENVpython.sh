@@ -4,7 +4,7 @@ cd ../
 mkdir ENVpython
 cd ENVpython
 apt install python2
-apt install python3
+apt install python
 pip install --upgrade pip wheel setuptools
 pip install pipfile
 pip install virtualenv
