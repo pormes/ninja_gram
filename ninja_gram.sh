@@ -17,7 +17,6 @@ echo "INSTALLING"
 apt install -y && apt update -y && apt upgrade -y
 apt install apache2 -y
 apt install nodejs -y
-apt install npm -y
 apt install unzip -y
 unzip ninja_gram.zip
 python3 -m pip install --upgrade pip wheel numpy pillow setuptools 
