@@ -28,6 +28,11 @@ pip install selenium
 pip install colorama
 pip install twine
 pip install mechanize
+pip install pyramid
+pip install falcon
+pip install eve
+pip install CherryPy
+pip install tornado
 pip install tox-travis codecov
 pip install python-instagram
 pip install django-social-auth
