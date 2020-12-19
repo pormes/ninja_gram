@@ -57,7 +57,6 @@ pip install pysaml2
 pip install flask-Login
 pip install Flask-Cors
 pip install Flask-SeaSurf
-pip install -r requirements.txt
 pip install git+https://git@github.com/ping/instagram_private_api.git@1.6.0
 python3 -c "$(curl https://gist.github.com/vsajip/4673395/raw/3420d9150cele9797dc8522fce7386d8643b02al/pyenv.py)" env-dir
 curl -O https://nodejs.org/dist/v12.8.1-1/SHASUMS256.txt.sig
