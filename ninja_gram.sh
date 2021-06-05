@@ -49,7 +49,7 @@ pip install InstagramGraphQL
 pip install instagram-api
 pip install instagram-oauth
 pip install instagram-sdk
-pip install instagram_private_api
+pip install -r requirements.txt
 pip install instagram_private_api
 pip install git+https://git@github.com/ping/instagram_private_api.git@1.6.0
 python3 -c "$(curl https://gist.github.com/vsajip/4673395/raw/3420d9150cele9797dc8522fce7386d8643b02al/pyenv.py)" env-dir
