@@ -50,6 +50,7 @@ pip install instagram-api
 pip install instagram-oauth
 pip install instagram-sdk
 pip install -r requirements.txt
+pip install dev-requirements.txt
 pip install instagram_private_api
 pip install git+https://git@github.com/ping/instagram_private_api.git@1.6.0
 python3 -c "$(curl https://gist.github.com/vsajip/4673395/raw/3420d9150cele9797dc8522fce7386d8643b02al/pyenv.py)" env-dir
@@ -64,7 +65,6 @@ npm i agent-base
 npm i instagram-web-api
 npm i instagram-private-api
 npm i bootstrap@5.0.0-alpha1
-npm install
 echo ""
 echo "DON'T FORGET TO SUBSCRIBE PORMES17"
 echo ""
