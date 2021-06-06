@@ -16,6 +16,7 @@ echo "INSTALLING"
 
 apt install -y && apt update -y && apt upgrade -y
 apt install apache2 -y
+apt install curl -y
 apt install nodejs-lts -y
 apt install unzip -y
 apt install python -y
@@ -27,11 +28,8 @@ pip install clang
 pip install selenium
 pip install colorama
 pip install twine
-pip install mechanize
-pip install rust
 pip install urllib3
 pip install tox-travis codecov
-pip install sqlite-utils
 pip install instagram_private_api
 pip install git+https://git@github.com/ping/instagram_private_api.git@1.6.0
 python3 -c "$(curl https://gist.github.com/vsajip/4673395/raw/3420d9150cele9797dc8522fce7386d8643b02al/pyenv.py)" env-dir
