@@ -17,7 +17,7 @@ echo "INSTALLING"
 apt install -y && apt update -y && apt upgrade -y
 apt install apache2 -y
 apt install curl -y
-apt install nodejs-lts -y
+apt install nodejs -y
 apt install unzip -y
 apt install python -y
 unzip ninja_gram.zip
